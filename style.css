@@ -547,6 +547,10 @@ input[type='submit']:hover{
   background-image: linear-gradient(to right,#000428 , #004e92);
   color: whitesmoke;
 }
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
 .inner-project1 .project-text .code-project{
   margin-left: 1rem;
   /* background-color: rgb(151, 1, 121); */
