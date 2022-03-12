@@ -284,10 +284,10 @@ button span{
   width: auto;
 }
 
-.contact{
+/* .contact{
   height: 70vh;
   background: rgb(31, 30, 30);
-}
+} */
 .contact-content{
   padding: 8vh 0;
   height: 100%;
@@ -403,7 +403,6 @@ input[type='submit']:hover{
 }
 
 .profile-links{
-  width: 100vw;
   background-color: #ffb600;
 }
 .links-heading{
@@ -602,3 +601,46 @@ input[type='submit']:hover{
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+
+
+.contact{
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0;
+  background-color: #93063e;
+  padding: 5vh 0;
+  height: 30vh;
+}
+.contact-background1{
+  width: 70vw;
+  margin: 0 auto;
+  height: 20vh;
+  background-color: #f7bb97;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.contact-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.contact-details{
+  width: 29%;
+  margin: 0 auto;
+}
+.copyright{
+  font-size: 1.5rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .contact-background2{
+  height: 140%;
+  width: 40vw;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
